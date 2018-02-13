@@ -2,6 +2,10 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+
+}
+body{
+  width:100%;
 }
 
 html{
@@ -11,6 +15,8 @@ html{
   font-size: 20px;
   font-weight: 300;
   text-rendering: optimizeLegibility;
+
+
 }
 
 .clearfix{zoom:1}
