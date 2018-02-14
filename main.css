@@ -258,6 +258,7 @@ header {
   min-height: 100vh;
   overflow: hidden;
   display: flex;
+  border: 5px solid #e67e22;
 }
 
 .panel {
@@ -340,7 +341,7 @@ header {
   display:flex;
   flex-direction: row;
   margin-top:30px;
-  border: 2px solid black;
+  border: 7px solid #e67e22;
 }
 .flex-container > div{
   height:320px;
