@@ -219,7 +219,18 @@ header {
   background-size: cover;
   background-position: center;
   height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content:flex-end;
+  align-items: center;
 }
+
+.section-about > p{
+  color:white;
+  font-size: 24px;
+}
+
+
 
 .section-contact {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://maxnawa31.github.io/images/alley.JPG");
@@ -323,4 +334,33 @@ header {
 .panel.open {
   flex: 5;
   font-size: 20px;
+}
+
+.flex-container{
+  display:flex;
+  flex-direction: row;
+  margin-top:30px;
+  border: 2px solid black;
+}
+.flex-container > div{
+  height:320px;
+  width:370px;
+
+}
+
+.box1{
+  background-image: url("https://i.forbesimg.com/media/lists/companies/iex-group_416x416.jpg");
+  background-position: 1% 32%;
+}
+.box2{
+  background-image: url("https://i.pinimg.com/736x/2e/89/0b/2e890bd815538d4eec8c9cbf5c41d691--tesla-s-tesla-motors.jpg");
+  background-position: center;
+}
+.box3{
+  background-image: url("https://cdn.windowsreport.com/wp-content/uploads/2016/10/khan-academy-logo-740x480.jpg");
+  background-position: 110% 25%;
+}
+.box4{
+  background-image: url("http://www.brandchannel.com/wp-content/uploads/2016/01/Al_Jazeera_America_Logo-medium.jpg");
+  background-position: 29% 27%;
 }
