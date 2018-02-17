@@ -107,6 +107,7 @@ header {
   background-size: cover;
   background-position: center;
   height: 100vh;
+  background-attachment: fixed;
 }
 
 .main-nav {
@@ -378,6 +379,7 @@ header {
   min-width:100%;
   background-repeat:none;
   background-size: cover;
+  background-attachment: fixed;
 }
 
 .container{
