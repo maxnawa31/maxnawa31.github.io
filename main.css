@@ -92,20 +92,6 @@ h2 {
   letter-spacing: 1px;
 }
 
-.arrow {
-  text-align: center;
-  position: relative;
-  left: 30px;
-  top: 250px;
-  color: white;
-  font-size: 50px;
-  text-decoration: none;
-}
-
-.arrow-link {
-  text-decoration: none;
-  color: white;
-}
 
 /*----------------------*/
 
@@ -114,7 +100,7 @@ h2 {
 /*----------------------*/
 
 header {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://maxnawa31.github.io/images/bridge.JPG");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7)), url("images/IMG_1827.JPG");
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -131,7 +117,7 @@ header {
   margin-left: 40px;
 }
 
-.main-nav li a:link, .main-nav li a:visited {
+.flex-nav li a:link, .flex-nav li a:visited {
   padding: 8px;
   0;
   color: #fff;
@@ -142,7 +128,7 @@ header {
   transition: border-bottom 0.6s;
 }
 
-.main-nav li a:hover, .main-nav li a :active {
+.flex-nav li a:hover, .main-nav li a :active {
   border-bottom: 1px solid #e67e22;
 }
 
@@ -219,15 +205,14 @@ header {
   background-size: cover;
   background-position: center;
   height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content:flex-end;
-  align-items: center;
 }
 
 .section-about > p{
   color:white;
-  font-size: 24px;
+  font-size: 30px;
+  font-family: 'Nanum Pen Script', cursive;
+  display:flex;
+  flex-direction: column;
 }
 
 
@@ -255,7 +240,7 @@ header {
 }
 
 .panels {
-  min-height: 100vh;
+  min-height: 40vh;
   overflow: hidden;
   display: flex;
   border: 5px solid #e67e22;
@@ -281,13 +266,16 @@ header {
 
 .panel1 {
   background-image: url("images/DSC_0958.JPG");
+  border-right:5px solid #e67e22;
 }
 .panel2 {
   background-image:url("images/IMG_0903.JPG");
+  border-right:5px solid #e67e22;
 }
 
 .panel3 {
   background-image: url("images/IMG_0795.JPG");
+  border-right:5px solid #e67e22;
 }
 
 .panel4 {
@@ -298,7 +286,7 @@ header {
 .panel > *{
   margin:0;
   width:100%;
-  transition:transform 1s;
+  transition:transform 1.5s;
   flex:1 0 auto;
   display: flex;
   justify-content: center;
@@ -337,31 +325,64 @@ header {
   font-size: 20px;
 }
 
-.flex-container{
+.map-container{
   display:flex;
   flex-direction: row;
-  margin-top:30px;
-  border: 7px solid #e67e22;
-}
-.flex-container > div{
-  height:320px;
-  width:370px;
+  justify-content: space-around;
+  align-items:flex-start;
+
 
 }
 
-.box1{
-  background-image: url("https://i.forbesimg.com/media/lists/companies/iex-group_416x416.jpg");
-  background-position: 1% 32%;
+.city-map{
+  border-radius: 30%;
+  height:400px;
+  width:400px;
+  background-image: url("http://www.citi.io/wp-content/uploads/2015/05/684-1.jpg");
 }
-.box2{
-  background-image: url("https://i.pinimg.com/736x/2e/89/0b/2e890bd815538d4eec8c9cbf5c41d691--tesla-s-tesla-motors.jpg");
-  background-position: center;
+
+.text-container{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
-.box3{
-  background-image: url("https://cdn.windowsreport.com/wp-content/uploads/2016/10/khan-academy-logo-740x480.jpg");
-  background-position: 110% 25%;
+
+.text-container > p{
+  padding-left:20px;
+  font-size:20px;
+  color:white;
+  font-family: 'Nanum Pen Script', cursive;
 }
-.box4{
-  background-image: url("http://www.brandchannel.com/wp-content/uploads/2016/01/Al_Jazeera_America_Logo-medium.jpg");
-  background-position: 29% 27%;
+
+.school{
+  height:400px;
+  width:400px;
+  background-image: url("https://engineering.berkeley.edu/sites/default/files/images/milestone/1903CityOfLearning.jpg");
+
+}
+
+
+.wrapper{
+  max-width:1000px;
+  margin : 0 auto;
+  padding:50px;
+}
+
+.flex-nav ul{
+
+  list-style:none;
+  margin:0;
+  display:flex;
+  flex-direction: row;
+
+}
+
+.flex-nav li{
+  flex:1;
+
+}
+
+.flex-nav li a{
+  text-decoration: none;
+  color:white;
 }
