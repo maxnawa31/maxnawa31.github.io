@@ -101,6 +101,10 @@ h2 {
 /*Header*/
 
 /*----------------------*/
+.wrapper{
+  -webkit-animation: fadein 2s;
+}
+
 
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7)), url("images/IMG_1827.JPG");
@@ -153,6 +157,11 @@ header {
 /*BUTTONS*/
 
 /*----------------------*/
+
+.btn{
+  -webkit-animation: fadein 3s;
+}
+
 
 .btn:link,
 .btn:visited {
@@ -290,7 +299,7 @@ header {
 }
 
 .panel3 {
-  background-image: url("images/IMG_0795.JPG");
+  background-image: url("images/IMG_0790.JPG");
   border-right: 2px solid #E5C603;
 }
 
@@ -380,6 +389,7 @@ header {
   background-repeat:none;
   background-size: cover;
   background-attachment: fixed;
+  padding-top:250px;
 }
 
 .container{
@@ -469,3 +479,11 @@ figure:hover img{
   background-repeat:none;
   background-size: cover;
 }
+
+.contact{
+  background-image:url("");
+  min-height: 100%;
+  min-width:100%;
+  background-repeat:no-repeat;
+}
+
